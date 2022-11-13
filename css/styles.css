@@ -521,6 +521,9 @@ img {
   .skills__react {
       width: 65%;
   }
+  .skills__git {
+    width: 80%;
+  }
 
   .skills__nodejs {
       width: 60%;
@@ -533,6 +536,9 @@ img {
   }
   .skills__cplus {
     width: 40%;
+  }
+  .skills__sql {
+    width: 70%;
   }
 
   .skills__figma {
