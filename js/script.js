@@ -108,7 +108,40 @@ const swiper = new Swiper('.portfolio__container', {
     // },
 });
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== CONTACT FORM ====================*/
+$(document).ready(function()
+{
+    $("#submit").click(function()
+    {
+        $("#erconts").fadeIn(500);
+         $.ajax(
+        {
+            type: "POST",
+            url: "php/send.php",
+            data: $("#callbacks").serialize(),
+            error: function()
+            {
+                $("#erconts").html("Upsss...Error!");
+            },
+            beforeSend: function()
+            {
+                $("#erconts").html("Sending....")
+            },
+            success: function()
+            {
+                $("#erconts").html(result);
+                checkThis();
+            }
+        });
+        return false;
+    });
+});
+
+
+
+
+
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 

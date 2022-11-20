@@ -627,7 +627,7 @@
 
                
 
-                <form action="php/send.php" method="post" class="contact__form grid">
+                <form action="" id="callbacks" method="post" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
@@ -649,14 +649,11 @@
                         <label for="" class="contact__label">Message</label>
                         <textarea class="contact__input" name="message" placeholder="Enter your message" required name="" id="" cols="0" rows="7"></textarea>
                     </div>
-
                     <div>
-                        <input type="submit" value="Send Message" class="button button--flex send_message">
-                           
-                            <!-- <i class="uil uil-message button__icon"></i> -->
-                        </input>
+                        <input id="submit" type="submit" value="Send Message" class="button button--flex send_message"></input>
                     </div>
                 </form>
+                <div id="erconts"></div>
             </div>
         </section>
     </main>
@@ -710,7 +707,7 @@
 
     <!--==================== SWIPER JS ====================-->
     <script src="js/swiper-bundle.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

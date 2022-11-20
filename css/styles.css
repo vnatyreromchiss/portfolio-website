@@ -285,7 +285,7 @@ img {
       display: grid;
       grid-template-columns: max-content;
       row-gap: 1rem;
-
+      
   }
 
   .home__social-icon {
@@ -880,6 +880,9 @@ img {
   }
   .send_message {
       border: none;
+  }
+  #erconts {
+      display: none;
   }
   
   /*==================== FOOTER ====================*/
