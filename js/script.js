@@ -117,7 +117,7 @@ $(document).ready(function()
          $.ajax(
         {
             type: "POST",
-            url: "php/send.php",
+            url: "send.php",
             data: $("#callbacks").serialize(),
             error: function()
             {
