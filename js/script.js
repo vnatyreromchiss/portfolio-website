@@ -127,7 +127,7 @@ $(document).ready(function()
             {
                 $("#erconts").html("Sending....")
             },
-            success: function()
+            success: function(result)
             {
                 $("#erconts").html(result);
                 checkThis();
