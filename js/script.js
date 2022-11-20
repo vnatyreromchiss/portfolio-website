@@ -114,7 +114,7 @@ $(document).ready(function()
     $("#submit").click(function()
     {
         $("#erconts").fadeIn(500);
-         $.ajax(
+        $.ajax(
         {
             type: "POST",
             url: "send.php",
