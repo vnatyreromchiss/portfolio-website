@@ -6,7 +6,7 @@
     --header-height:3rem;
 
     /* Colors */
-    --hue-color:146;   /*Purple 250 - Green 142 - Blue 230 - Pink 340 */
+    --hue-color: 146;   /*Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
     /* HSL color mode */
     --first-color:hsl(var(--hue-color), 69%, 61%);
@@ -208,6 +208,7 @@ img {
 
   @media screen and (max-width:767px){
       .nav__menu {
+            background-color: #3dbd3d;   
           position: fixed;
           bottom: -100%;
           left: 0;
