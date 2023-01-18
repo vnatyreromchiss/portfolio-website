@@ -745,6 +745,7 @@ img {
 
   .portfolio__img {
       width: 265px;
+      /* height: 200px; */
       border-radius: .5rem;
       justify-self: center;
   }
@@ -835,6 +836,9 @@ img {
   /*==================== CONTACT ME ====================*/
   .contact__container {
       row-gap: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
 
   .contact__information {
