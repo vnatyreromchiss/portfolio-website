@@ -800,6 +800,37 @@ img {
   .swiper-pagination-bullet {
       outline: none;
   }
+  /*==================== COURSES ====================*/
+  .courses__container {
+      overflow: initial;
+  }
+
+  .courses__content {
+      padding: 0 1.5rem;
+  }
+
+  .courses__img {
+      width: 265px;
+      /* height: 200px; */
+      border-radius: .5rem;
+      justify-self: center;
+  }
+
+  .courses__title {
+      font-size: var(--h3-font-size);
+      margin-bottom: var(--mb-0-5);
+  }
+
+  .courses__description {
+      margin-bottom: var(--mb-0-75);
+  }
+  
+  .courses__button:hover .button__icon {
+      transform: translateX(.25rem);
+  }
+  
+
+  
 
   /*==================== PROJECT IN MIND ====================*/
   .project {
@@ -1054,6 +1085,7 @@ img {
       .about__container,
       .skills__container,
       .portfolio__content,
+      .courses__content,
       .project__container,
       .contact__container,
       .footer__container {
